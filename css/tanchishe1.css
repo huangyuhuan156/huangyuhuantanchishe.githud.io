@@ -1,0 +1,45 @@
+ *{ 
+ 	margin:0; 
+    padding:0; 
+   font-family:arial; 
+   font-size:12px;
+ }
+table#map {
+	 width:auto; 
+     height:auto; 
+     margin:0 auto; 
+     border-collapse:collapse; 
+     border-spacing:0; 
+     background-color:antiquewhite; 
+     clear:both;
+}
+td { 
+	width:20px; 
+    height:20px; 
+    border:1px solid black;
+}
+.shead {
+	background-image: url(../img/贪吃蛇.jpg);
+    background-size: cover;
+	border-radius: 50%;
+}
+.sbody { 
+	background-color: deeppink;
+    border-radius: 50%;
+}
+.sfood{ 
+	background-image: url(../img/苹果.jpg);
+	background-size: cover;
+	border-radius: 50%;
+}
+.info { 
+	width:400px; 
+    margin:0 auto; 
+    padding:3em 0;
+}
+.info li{ 
+	float:left; 
+    height:30px; 
+    margin-right:2em; 
+    line-height:30px;
+}
